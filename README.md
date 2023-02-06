@@ -1,1 +1,1 @@
-# stock_trade_strategy
+# Use Taichi to help computing stock trading strategy quickly
