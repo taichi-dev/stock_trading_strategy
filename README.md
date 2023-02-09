@@ -1,1 +1,1 @@
-# Use Taichi to help computing stock trading strategy quickly
+# Use Taichi to help compute stock trading strategy quickly
