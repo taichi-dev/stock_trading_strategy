@@ -1,3 +1,4 @@
+import time
 import taichi as ti
 ti.init(arch=ti.gpu)
 
@@ -66,6 +67,11 @@ def main():
 
 
 if __name__ == "__main__":
+    t0 = time.perf_counter()
     num_tests = 5
     for _ in range(num_tests):
         main()
+    ti.sync()
+    t1 = time.perf_counter()
+    print(f"Average time elapsed using Taichi: {(t1 - t0) / num_tests}")
+
