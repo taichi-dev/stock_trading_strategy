@@ -1,1 +1,3 @@
-Optimal stock trading strategy using Taichi
+Optimal stock trading strategy using Taichi.
+
+Suggestions and contribution are welcomed.
