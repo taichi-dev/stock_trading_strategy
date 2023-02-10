@@ -1,1 +1,1 @@
-# Use Taichi to help compute stock trading strategy quickly
+Optimal stock trading strategy using Taichi
